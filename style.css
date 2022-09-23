@@ -1,0 +1,72 @@
+
+body {
+    color: #1d3557;
+    margin: 0;
+    text-align: center;
+    border: 5px solid  #1d3557;
+    display: flex; 
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+#hero {
+    background-image: url(torshov.avif);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+.visit {
+    background-color: #a8dadc;
+    color: white;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.enjoy {
+    background-color: #1d3557;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+#activ {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.concert {
+    height: 100px;
+    border-radius: 50%;
+}
+.park {
+    height: 100px;
+    border-radius: 50%;
+}
+.field {
+    height: 100px;
+    border-radius: 50%;
+}
+#section {
+    background-color: #f1faee;
+}
+.me {
+    height: 250px;
+    width: 200px;
+}
+.me {
+    width: 150px;
+}
+.guide {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+    text-align: center;
+    background-color: #457b9d;
+    border-radius: 10px;
+    border-bottom: 3px solid #1d3557;
+}
